@@ -1,6 +1,9 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+
+// import markdown componet
+import MyMarkdown from '@/MyMarkdown.md';
 </script>
 
 <template>
@@ -9,6 +12,9 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+
+      <!-- use markdown componet -->
+      <MyMarkdown />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
